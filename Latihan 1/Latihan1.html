@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operasi Penjumlahan</title>
+    <style>
+      label,
+      input,
+      button {
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Kalkulator Penjumlahan</h1>
+    <form id="calculator"></form>
+    <label for="bilangan1">Bilangan Pertama:</label>
+    <input type="text" id="bilangan1" placeholder="" />
+
+    <label for="bilangan2">Bilangan Kedua:</label>
+    <input type="text" id="bilangan2" placeholder="" />
+
+    <div>
+      <button onclick="jumlahkan()">Jumlahkan</button>
+      <button onclick="resetForm()">Ulang</button>
+    </div>
+
+    <script src="edit.js"></script>
+  </body>
+</html>
